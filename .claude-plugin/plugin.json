@@ -1,0 +1,47 @@
+{
+  "name": "jeffholla-skills",
+  "description": "Behavioral guidelines derived from Andrej Karpathy's rules and compressed communication mode with Caveman for Claude Code.",
+  "version": "1.0.0",
+  "author": {
+    "name": "jeffholla"
+  },
+  "license": "MIT",
+  "keywords": [
+    "guidelines",
+    "best-practices",
+    "coding",
+    "karpathy",
+    "communication",
+    "compression",
+    "caveman"
+  ],
+  "skills": [
+    "./"
+  ],
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/../caveman/hooks/caveman-activate.js\"",
+            "timeout": 5,
+            "statusMessage": "Loading caveman mode..."
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/../caveman/hooks/caveman-mode-tracker.js\"",
+            "timeout": 5,
+            "statusMessage": "Tracking caveman mode..."
+          }
+        ]
+      }
+    ]
+  }
+}

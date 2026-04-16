@@ -1,0 +1,33 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "jeffholla-skills",
+  "id": "jeffholla-skills",
+  "owner": {
+    "name": "jeffholla"
+  },
+  "metadata": {
+    "description": "Behavioral guidelines derived from Andrej Karpathy's rules and compressed communication mode with Caveman for Claude Code.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "karp-caveman",
+      "source": "./",
+      "description": "Think deep. Speak short. Code minimal.",
+      "version": "1.0.0",
+      "author": {
+        "name": "jeffholla"
+      },
+      "keywords": [
+        "guidelines",
+        "best-practices",
+        "coding",
+        "karpathy",
+        "communication",
+        "compression",
+        "caveman"
+      ],
+      "category": "productivity"
+    }
+  ]
+}
