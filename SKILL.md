@@ -4,9 +4,8 @@ description: >
   Combines Karpathy coding discipline with Caveman communication compression.
   Think carefully and surgically like Karpathy; speak terse like caveman.
   Use when user wants careful, minimal code AND brief responses — e.g. "code review",
-  "fix this bug", "refactor", "implement X" combined with "be brief", "less words",
-  "caveman mode", or simply any coding task where the user values concise output.
-  Also auto-triggers when both coding precision and token efficiency are valued.
+  "fix this bug", "refactor", "implement X" combined with "be brief", "less words".
+  Invokes with `/karp-caveman`.
 ---
 
 # Karpathy-Caveman
@@ -85,7 +84,7 @@ Weak criteria ("make it work") → ask for specifics before touching code.
 
 ## Part 2 — How to Communicate (Caveman Rules)
 
-Default level: **full**. Switch: `/caveman lite|full|ultra`.
+Default level: **full**. Switch: `/karp-caveman lite|full|ultra`.
 
 **Drop:** articles (a/an/the), filler (just/really/basically/actually), pleasantries (sure/certainly/happy to), hedging. Fragments OK. Short synonyms. Technical terms exact. Code blocks unchanged. Errors quoted exact.
 
