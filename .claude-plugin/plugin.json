@@ -1,7 +1,7 @@
 {
   "name": "karp-caveman",
   "description": "Behavioral guidelines derived from Andrej Karpathy's rules and compressed communication mode with Caveman for Claude Code.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "jeffholla"
   },
