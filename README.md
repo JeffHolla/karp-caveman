@@ -7,6 +7,15 @@ A Claude skill that fuses two disciplines into one mode:
 
 > Think deep. Speak short. Code minimal.
 
+<p align="center">
+  <a href="#origins">Origins</a> •
+  <a href="#install">Install</a> •
+  <a href="#what-it-does">What it does</a> •
+  <a href="#caveman-levels">Caveman levels</a> •
+  <a href="#when-it-triggers">When it triggers</a> •
+  <a href="#interaction-patterns">Interaction patterns</a>
+</p>
+
 ---
 
 ## Origins
@@ -19,6 +28,14 @@ Built on two independent philosophies:
 - 🗿 **Caveman communication compression** — token-efficient, no-filler response style  
   → [`caveman`](https://github.com/JuliusBrussee/caveman)
 
+---
+## Install
+```cmd
+claude plugin marketplace add JeffHolla/karp-caveman && claude plugin install karp-caveman@jeffholla-skills
+```
+```cmd
+claude plugin marketplace add JuliusBrussee/caveman && claude plugin install caveman@caveman
+```
 ---
 
 ## What it does
